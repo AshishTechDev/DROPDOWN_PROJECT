@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+header{
+  width: 100vw;
+  height: 5vh;
+  /* background-color: rgb(24, 24, 24); */
+  border-bottom: 0.1rem solid rgba(47, 47, 47, 0.488);
+}
+.navigation{
+  /* background-color: aqua; */
+  height: 100%;
+  position: relative;
+}
+
+.navigation ul{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* background-color: blue; */
+height: 100%;
+
+}
+
+.parent {
+  position: relative;
+
+}
+.parent a {
+  display: flex;
+  padding: 0.9rem 1rem;
+  color: var(--light-gray);
+  font-size: 0.9rem;
+  background-color: antiquewhite;
+}
+.parent a:hover{
+  background-color: rgb(188, 188, 188);
+}
+
+
+.dropdown{
+  width: 10rem;
+  position: absolute;
+  border: 1px solid gray;
+  display: none;
+  margin-top: 0.1rem;
+  background-color: white;
+}
+
+.parent:hover .dropdown{
+  display: block;
+}
+
+.product-list{
+  background-color: aquamarine;
+  display: flex;
+ flex-direction: column;
+}
+
+.product-list-item{
+  position: relative;
+  width: 100%;
+}
+
+.dropdown-list{
+  width: 10rem;
+  position: absolute;
+  border: 1px solid gray;
+  display: none;
+  background-color: white;
+  left: 10rem;
+  top: 0;
+}
+.dropdown-list1{
+  background-color: aquamarine;
+  display: flex;
+ flex-direction: column;
+
+}
+
+.dropdown-list1 li{
+  width: 100%;
+}
+
+.product-list-item:hover .dropdown-list{
+  display: block;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="section.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+  <title>dropdown menu</title>
+</head>
+<body>
+  <header>
+    <nav class="navigation">
+      <ul class="bottom-nav">
+          <li class="parent">
+            <a href="">Products</a>
+            <div class="dropdown">
+              <ul class="product-list">
+                <li class="product-list-item">
+                  <a href="">Electronics</a>
+                  <div class="dropdown-list">
+                    <ul class="dropdown-list1">
+                      <li>
+                        <a href="">Mobiles</a>
+                      </li>
+                      <li>
+                        <a href="">Laptop</a>
+                      </li>
+                      <li>
+                        <a href="">Earphones</a>
+                      </li>
+                      <li>
+                        <a href="">Speakers</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="product-list-item">
+                  <a href="">Sports</a>
+                </li>
+                <li class="product-list-item">
+                  <a href="">Clothes</a>
+                </li>
+                <li class="product-list-item">
+                  <a href="">Suppliments</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="parent">
+            <a href="">Services</a>
+          </li>
+      </ul>
+      
+    </nav>
+  </header>
+  <section>
+    <div class="opacity"></div>
+    <div class="contain-box">
+          <h1>Find Next Place To Visit</h1>
+          <span>Discover amzaing places at exclusive deals</span>
+          <div class="contain-inputs">
+              <div class="input-box">
+                <input type="text"  id="input"  placeholder="Keywords">
+                <i class="fa fa-car" id="icon"></i>
+              </div>
+              <div class="input-box">
+                <select name="Destination" id="select" >
+                  <option value="Destination">Destination</option>
+                  <option value="Africa">Africa Adventure</option>   
+                  <option value="Africa wild">Africa wild</option>   
+                  <option value="America">America</option>
+                  <option value="Europe">Europe</option>
+                </select>
+              </div>
+              <div class="input-box">
+                <input type="text"  id="input"  placeholder="Keywords">
+                <i class="fa fa-car" id="icon"></i>
+              </div>
+                <input type="submit" class="input-box" id="submit"  placeholder="Keywords">
+          </div>
+    </div>
+  </section>
+ 
+  
+</body>
+</html>
